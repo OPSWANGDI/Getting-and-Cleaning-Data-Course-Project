@@ -1,0 +1,25 @@
+#Getting and Cleaning Data Course Project  
+
+###Introduction 
+
+The data was getton from the accelerometers from the Samsung Galaxy S smartphone. The goal is to prepare tidy data that can be used for later analysis.
+
+###Basic Solution
+
+Noting from the data introduction webside <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>, X links measurement data, y links features level and subject links observers. Merge data in one table and then operate dataset using {dplyr} package. Finally using {base} and {codebook}, write out result and related codebook to those "tidydata" named files. 
+
+###Prerequisites
+
+R with a vertion at least 3.5.0
+
+Packages like {dplyr}, {codebook}, {knitr}, {stringr}, {dataset}
+
+###Contributor
+
+Di Wang <opswangdi@gmail.com>
+
+###Acknowledgements
+
+Thanks for Community TA  David Hood
+
+Reference link: https://class.coursera.org/getdata-008/forum/thread?thread_id=24
